@@ -1,0 +1,170 @@
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
+	overflow: hidden;
+	width:100%;
+}
+
+.offset1, .offset2, .offset3, .offset4, .offset5, .offset6, .offset7, .offset8, .offset9, .offset10, .offset11, .offset12{
+	margin-left:0px;
+}
+
+.span1-mobile{
+	width:8.33% !important; 
+	float: left;
+}
+
+.span2-mobile{
+	width:16.66% !important; 
+	float: left;
+}
+
+.span3-mobile{
+	width:25% !important; 
+	float: left;
+}
+
+.span4-mobile{
+	width:33.33% !important; 
+	float: left;
+}
+
+.span5-mobile{
+	width:41.66% !important; 
+	float: left;
+}
+
+.span6-mobile{
+	width:50% !important; 
+	float: left;
+}
+
+.span7-mobile{
+	width:58.33% !important; 
+	float: left;
+}
+
+.span8-mobile{
+	width:66.66% !important; 
+	float: left;
+}
+
+.span9-mobile{
+	width:75% !important; 
+	float: left;
+}
+
+.span10-mobile{
+	width:83.33% !important; 
+	float: left;
+}
+
+.span11-mobile{
+	width:91.66% !important; 
+	float: left;
+}
+
+.span12-mobile{
+	width:100% !important; 
+	float: left;
+}
+
+.offset1-mobile{
+	margin-left:8.33% !important; 
+}
+
+.offset2-mobile{
+	margin-left:16.66% !important; 
+}
+
+.offset3-mobile{
+	margin-left:25% !important; 
+}
+
+.offset4-mobile{
+	margin-left:33.33% !important; 
+}
+
+.offset5-mobile{
+	margin-left:41.66% !important; 
+}
+
+.offset6-mobile{
+	margin-left:50% !important; 
+}
+
+.offset7-mobile{
+	margin-left:58.33% !important; 
+}
+
+.offset8-mobile{
+	margin-left:66.66% !important; 
+}
+
+.offset9-mobile{
+	margin-left:75% !important; 
+}
+
+.offset10-mobile{
+	margin-left:83.33% !important; 
+}
+
+.offset11-mobile{
+	margin-left:91.66% !important; 
+}
+
+.offset12-mobile{
+	margin-left:100% !important; 
+}
+
+.hide-mobile{
+	display:none;
+}
+
+.hide-tablet{
+	display:;
+}
+
+.hide-desktop{
+	display:;
+}
+
+.show-mobile{
+	display:;
+}
+
+.show-tablet{
+	display:none;
+}
+
+.show-desktop{
+	display:none;
+}
+
+h1{
+	font-size:300%;
+}
+
+h2{
+	font-size:150%;
+}
+
+h3{
+	font-size:100%;
+}
+
+h4{
+	font-size:100%;
+}
+
+h5{
+	font-size:100%;
+}
+
+h6{
+	font-size:100%;
+}
+
+.columns3, .columns2{
+	column-count:1;
+	-moz-column-count:1;
+	-webkit-column-count:1;
+}

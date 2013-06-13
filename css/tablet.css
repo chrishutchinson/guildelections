@@ -1,0 +1,166 @@
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
+	overflow: hidden;
+	width:100%;
+}
+
+.span1-tablet{
+	width:8.33% !important; 
+	float: left;
+}
+
+.span2-tablet{
+	width:16.66% !important; 
+	float: left;
+}
+
+.span3-tablet{
+	width:25% !important; 
+	float: left;
+}
+
+.span4-tablet{
+	width:33.33% !important; 
+	float: left;
+}
+
+.span5-tablet{
+	width:41.66% !important; 
+	float: left;
+}
+
+.span6-tablet{
+	width:50% !important; 
+	float: left;
+}
+
+.span7-tablet{
+	width:58.33% !important; 
+	float: left;
+}
+
+.span8-tablet{
+	width:66.66% !important; 
+	float: left;
+}
+
+.span9-tablet{
+	width:75% !important; 
+	float: left;
+}
+
+.span10-tablet{
+	width:83.33% !important; 
+	float: left;
+}
+
+.span11-tablet{
+	width:91.66% !important; 
+	float: left;
+}
+
+.span12-tablet{
+	width:100% !important; 
+	float: left;
+}
+
+.offset1-tablet{
+	margin-left:8.33% !important; 
+}
+
+.offset2-tablet{
+	margin-left:16.66% !important; 
+}
+
+.offset3-tablet{
+	margin-left:25% !important; 
+}
+
+.offset4-tablet{
+	margin-left:33.33% !important; 
+}
+
+.offset5-tablet{
+	margin-left:41.66% !important; 
+}
+
+.offset6-tablet{
+	margin-left:50% !important; 
+}
+
+.offset7-tablet{
+	margin-left:58.33% !important; 
+}
+
+.offset8-tablet{
+	margin-left:66.66% !important; 
+}
+
+.offset9-tablet{
+	margin-left:75% !important; 
+}
+
+.offset10-tablet{
+	margin-left:83.33% !important; 
+}
+
+.offset11-tablet{
+	margin-left:91.66% !important; 
+}
+
+.offset12-tablet{
+	margin-left:100% !important; 
+}
+
+.hide-mobile{
+	display:;
+}
+
+.hide-tablet{
+	display:none;
+}
+
+.hide-desktop{
+	display:;
+}
+
+.show-mobile{
+	display:none;
+}
+
+.show-tablet{
+	display:;
+}
+
+.show-desktop{
+	display:none;
+}
+
+h1{
+	font-size:400%;
+}
+
+h2{
+	font-size:300%;
+}
+
+h3{
+	font-size:200%;
+}
+
+h4{
+	font-size:150%;
+}
+
+h5{
+	font-size:120%;
+}
+
+h6{
+	font-size:110%;
+}
+
+.columns3, .columns2{
+	column-count:2;
+	-moz-column-count:2;
+	-webkit-column-count:2;
+}

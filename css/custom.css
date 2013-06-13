@@ -1,0 +1,271 @@
+body{
+	font-family:"Roboto Condensed", sans-serif;
+	font-weight:400;
+	background-image:url(http://farm8.staticflickr.com/7142/6710940401_1689192cf7_o.jpg);
+	background-size:100%;
+	background-attachment:fixed;
+}
+
+a, a:link, a:visited, a:active{
+	color:#222222;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+.nav a, .nav a:link, .nav a:visited, .nav a:active, .nav a:hover{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.nav a{
+	display:block;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	z-index: 99998;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+}
+
+.center{
+	text-align: center;
+}
+
+.right{
+	text-align: right;
+}
+
+.bold{
+	font-weight:700;
+}
+
+.light{
+	font-weight:300;
+}
+
+.sidebar{
+	position:fixed;
+	height:100%;
+	background-color:#222222;
+	border-right:4px solid #1e1e1e;
+	color:#FFFFFF;
+	padding:20px;
+}
+
+.sidebar .bottom{
+	position:absolute;
+	bottom:20px;
+}
+
+.sidebar .nav{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.sidebar .nav li{
+	padding:10px;
+	background-image:url(../img/rarr.png);
+	background-repeat: no-repeat;
+	background-position: 94% center;
+}
+
+.sidebar .nav li:hover{
+	background-color:#444444;
+	cursor: pointer;
+}
+
+.content{
+}
+
+.content .box{
+	padding:20px;
+	background-color:rgba(255,255,255,0.9);
+	margin-top:80px;
+}
+
+.content .box-dark{
+	padding:20px;
+	background-color:rgba(18,18,18,1.0);
+	margin-top:80px;
+	color:#FFFFFF;
+}
+
+.content .box-candidate{
+	padding:20px;
+	background-color:rgba(255,255,255,0.9);
+}
+
+.content .box-margin-bottom{
+	padding:20px;
+	background-color:rgba(255,255,255,0.9);
+	margin-bottom:80px;
+	margin-top:80px;
+}
+
+.content .no-padding{
+	padding:0px !important;
+}
+
+.content .box .selector{
+	background-color:#dddddd;
+	list-style: none;
+	margin:0px 0px 20px 0px;
+}
+
+.content .box .selector li{
+	float:left;
+	padding:20px 10px 20px 10px;
+}
+
+.content .box .selector li.selected{
+	background-color:#bbbbbb;
+}
+
+.content .box .selector li:hover{
+	background-color:#bbbbbb;
+	cursor:pointer;
+}
+
+.content .candidates{
+	display: none;
+}
+
+.content .show{
+	display:block !important;
+}
+
+.content .candidates .candidate{
+	float:left;
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.content .candidates .candidate img{
+	width:80%;
+	border:3px solid #222222;
+}
+
+.hashtag{
+	position:fixed;
+	top:25px;
+	right:20px;
+	color:#FFFFFF;
+	font-size:18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow:#000000 2px 2px 2px;
+}
+
+.article{
+	line-height:1.4em;
+}
+
+.article .more-top{
+	width:100%;
+	padding:10px;
+	text-align: right;
+	border-top:1px solid #222222;
+	margin-top:30px;
+	margin-bottom:-10px;
+}
+
+.article .more-top ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+
+.article .more-top li{
+	margin:10px 0px 10px 0px;
+	border-right:4px solid #32507c;
+	padding-right:10px;
+}
+
+.article .more-top li.lead{
+	font-size:140%;
+}
+
+.pullquote{
+	font-size:200%;
+	line-height:1.2em;
+	color:#4e91b2;
+	font-weight: bold;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.bottom-gap{
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #444444;
+}
+
+.bottom-gap-noline{
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+.updates{
+	overflow:scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.update{
+	border-left:4px solid #222222;
+	padding-left:10px;
+	padding-right:20px;
+	margin-bottom:20px;
+}
+
+.update img{
+	height:20px;
+	width:20px;
+	vertical-align: baseline;
+}
+
+.role{
+	padding:5px 10px 5px 10px;
+	background-color:#32507c;
+	border-radius:5px;
+	color:#FFFFFF;
+	text-transform: uppercase;
+	display:inline-block;
+}
+
+.manifesto{
+	width:100%;
+	background-size:contain;
+	background-position:left;
+	height:350px;
+	background-repeat: no-repeat;
+}
+
+
+.person{
+	text-align: center;
+	padding-right:20px;
+}
+
+.person img{
+	width:60%;
+	border:4px solid #222222;
+}
